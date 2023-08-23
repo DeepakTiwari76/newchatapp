@@ -114,7 +114,7 @@ export default function Home() {
         try {
             if (user && receiverData) {
                 await addDoc(
-                    collection(
+                    collection( 
                         db,
                         "users",
                         user.uid,
